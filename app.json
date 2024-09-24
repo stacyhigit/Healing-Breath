@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Breathe",
+    "slug": "breathe",
+    "version": "1.0.0",
+		"description": "Simple Techniques to Reduce Stress and Anxiety, Enhance Concentration, and Balance Your Emotions",
+		"backgroundColor": "#000000",
+		"orientation": "portrait",
+    "androidStatusBar": {
+      "hidden": true
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eatthetoad.breathe"
+    },
+    "android": {
+			"package": "com.eattthetoad.breathe",
+			"versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      [
+        "expo-navigation-bar",
+        {
+          "position": "absolute",
+          "visibility": "hidden",
+          "behavior": "inset-swipe",
+          "backgroundColor": "#000000"
+        }
+      ]
+    ]
+  }
+}
