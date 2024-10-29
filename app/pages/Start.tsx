@@ -17,7 +17,7 @@ import { RootStackParamList } from "app/Navigation";
 import { colors } from "app/utils/constants";
 import { useAppSelector } from "app/store/store";
 
-import StartPage from "app/components/info/StartPage";
+import StartInstructions from "app/components/info/StartInstructions";
 
 type StartProps = NativeStackScreenProps<RootStackParamList, "Start">;
 
@@ -92,7 +92,7 @@ export default function Start({ navigation }: StartProps) {
         backgroundColor="transparent"
         hidden={true}
       />
-      <StartPage />
+      <StartInstructions />
     </View>
   );
 }
